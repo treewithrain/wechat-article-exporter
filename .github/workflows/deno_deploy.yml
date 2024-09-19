@@ -31,6 +31,6 @@ jobs:
       - name: Deploy to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: wechat-article-exporter
+          project: treewithrai-wechat-arti-91
           entrypoint: server/index.ts
           root: .output
